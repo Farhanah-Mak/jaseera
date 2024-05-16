@@ -1,0 +1,162 @@
+.about{
+    overflow: hidden;
+    /* --circleDiameter: 300px;
+    --circles: calc(var(--circleDiameter) / 5) */
+}
+.about_container{
+    padding: 1.7rem 2rem;
+    display: grid;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.about_left{
+    padding-left: 1rem;
+}
+
+.about_title{
+      font-size: clamp(1.9rem, 2.5vw, 2.5rem);
+      margin-bottom: 3rem;
+      
+}
+.about_text{
+    font-size: clamp(.8rem, 10vw, 1.1rem);
+    line-height: 1.6rem;
+}
+.one{
+    margin-bottom: 3rem;
+}
+.two{
+    margin-bottom: 3rem;
+}
+.about_icon{
+    font-size: calc(.25rem + 1vw);
+    text-align: center;
+    margin-top: 1em;
+    flex-wrap: nowrap;
+}
+.about_right{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.about_circle{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+     width: 100px;
+     height: 100px; 
+    border-radius: 50%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+     background-color: #90BAB21C;
+}
+ .about_circle > div {
+    position: unset !important;
+  }
+.teamwork .focus .innovation .professionlism .quality{
+     object-fit: contain;
+    /* width: 100% !important; */
+    position: relative !important;
+    height: unset !important;
+    width: calc(5rem + 1vw) !important;
+    height: calc(5rem + 1vw) !important;
+    object-fit: contain;
+}
+
+@media (min-width: 830px){
+    .about_container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 2em;
+    }
+    .about_title{
+        grid-column: 1 / -1;
+        margin: 0 auto;
+    }
+    .about_left{
+        max-width: 50vw;
+        min-width: 300px;
+    }
+    .about_right{
+         flex-wrap: nowrap;
+        /* padding-top: 1rem;
+        position: relative; */
+        /* border: 2px solid black; */
+        /* width: var(--circleDiameter);
+        height: var(--circleDiameter);
+        border-radius: 100%;
+        animation: rotate 30s linear infinite; */
+    }
+}
+     /* .about_circle{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        width: var(--circles);
+        height: var(--circles);
+        border: none;
+        box-shadow: none;
+        animation: maintain 30s linear infinite;
+        display: grid;
+        place-content: center;
+    } */
+    /* div.about_circle:nth-child(1){
+    top: calc(-5 * var(--circles) / 2);
+    left: calc(var(--circleDiameter)/ 3 - var(--circles) / 2);
+    animation: scale 1s linear infinite alternate;
+}
+div.about_circle:nth-child(2){
+    top: calc(var(--circleDiameter)/ 4 - var(--circles) / 2);
+    left: calc(6 * var(--circles) / 2);
+    animation: scale 1s linear infinite alternate;
+}
+div.about_circle:nth-child(3){
+    top: calc(var(--circleDiameter)/ 2.3 - var(--circles) / 2);
+    left: calc(-1 * var(--circles) / 2);
+    animation: scale 1s linear infinite alternate;
+    
+}
+div.about_circle:nth-child(4){
+    right: calc(var(--circleDiameter)/ 1.2 - var(--circles) / 2 );
+    bottom: calc(1 * var(--circles) / 2);
+    animation: scale 1s linear infinite alternate;
+    
+}
+div.about_circle:nth-child(5){
+     left: calc(var(--circleDiameter)/ 25 - var(--circles) / 2 );
+    top: calc(-4 * var(--circles) / 2);
+    animation: scale 1s linear infinite alternate;
+    
+} */
+
+/* @keyframes rotate {
+  0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}   
+@keyframes scale {
+    0% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}  */
+
+/* @keyframes maintain {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+} */
+

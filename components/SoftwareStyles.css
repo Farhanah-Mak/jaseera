@@ -1,0 +1,26 @@
+.software{
+    background-color: #A9CBF42E;
+}
+.software_container{
+    max-width: var(--max-width);
+    padding: 1.7rem 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.software_title{
+     font-size: clamp(1.9rem, 2.5vw, 2.5rem);
+     margin-bottom: 2rem;
+}
+.software_logo_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: nowrap;   
+}
+@media(min-width: 700px) {
+    .software_title{
+        text-align: center;
+    }
+}

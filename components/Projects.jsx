@@ -1,6 +1,7 @@
 import "./ProjectsStyles.css"
 import { aldrich } from "@/app/fonts";
 import Image from "next/image";
+import Button from "./Button";
 
 const Projects = () => {
   return (
@@ -11,45 +12,55 @@ const Projects = () => {
             Our projects
           </h1>
           <p className="projects_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            dolor blanditiis commodi et vero ab? Animi sapiente dolore libero
-            ipsum.
+            Create clash detection analyses and 
           </p>
         </div>
         <div className="projects_bottom">
           <div className="projects_tiles">
             <div className="projects_tile">
-              <Image src="" width={200} height={200} className="projects_pic" />
+              <Image
+                src="/projects1.jpg"
+                width={200}
+                height={200}
+                className="projects_pic"
+              />
               <h3 className={`${aldrich.className} + projects_tile_title`}>
                 Project 1
               </h3>
               <p className="projects_tile_text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, similique!
+                As Built scanning and 3D modelling for Petrochemical, Oil and gas plants
               </p>
-              <button className="button projects_button">Learn more</button>
+              <Button title="Learn more" styles="projects_button" />
             </div>
             <div className="projects_tile">
-              <Image src="" width={200} height={200} className="projects_pic" />
+              <Image
+                src="/projects2.jpg"
+                width={200}
+                height={200}
+                className="projects_pic"
+              />
               <h3 className={`${aldrich.className} + projects_tile_title`}>
                 Project 2
               </h3>
               <p className="projects_tile_text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, similique!
+                Scanning and modelling for offshaore plants and ships
               </p>
-              <button className="button projects_button">Learn more</button>
+              <Button title="Learn more" styles="projects_button" />
             </div>
             <div className="projects_tile">
-              <Image src="" width={200} height={200} className="projects_pic" />
+              <Image
+                src="/projects3.jpg"
+                width={200}
+                height={200}
+                className="projects_pic"
+              />
               <h3 className={`${aldrich.className} + projects_tile_title`}>
                 Project 3
               </h3>
               <p className="projects_tile_text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, similique!
+                Reverse engineering for mechanical parts
               </p>
-              <button className="button projects_button">Learn more</button>
+              <Button title="Learn more" styles="projects_button" />
             </div>
           </div>
         </div>

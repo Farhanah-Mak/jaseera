@@ -14,6 +14,7 @@
 .projects_title{
     font-size: clamp(1.9rem, 2.5vw, 2.5rem);
     margin-bottom: 3rem;
+    color: var(--primary-color-blue);
 }
 .projects_text{
     font-size: clamp(.8rem, 10vw, 1.1rem);
@@ -28,6 +29,7 @@
      padding: 1rem;
      background-color: white;
      border: none;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .projects_tile_title{
     margin: 1em 0;
@@ -39,6 +41,8 @@
 .projects_pic{
     display: block;
     margin: 0 auto;
+    object-fit: cover;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (min-width: 700px){
     .projects_title{

@@ -1,6 +1,7 @@
 import "./FooterStyles.css"
 import Link from "next/link";
 import Image from "next/image";
+import Button from "./Button";
 import { NAV_LINKS, SOCIALS } from "@/constants";
 
 const Footer = () => {
@@ -21,12 +22,10 @@ const Footer = () => {
           <p className="footer_text">
             Would you like to talk about your future product
           </p>
-          <button
-            className="footer_button"
-            type="button"
-          >
+          {/* <button className="footer_button" type="button">
             Get in touch
-          </button>
+          </button> */}
+          <Button title="Get in touch" styles="footer_button" />
         </div>
         <ul className="footerlists">
           {NAV_LINKS.map((link) => (

@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "about_us", label: "About Us" },
-  { href: "/", key: "projects", label: "Our Projects" },
-  { href: "/", key: "services", label: "Our Services" },
+  { href: "/about", key: "about_us", label: "About Us" },
+  { href: "/projects", key: "projects", label: "Our Projects" },
+  { href: "/services", key: "services", label: "Our Services" },
 ];
 //SOCIAL LINKS
 export const SOCIALS = {
@@ -15,3 +15,9 @@ export const SOCIALS = {
     "/linkedin.svg",
   ],
 };
+
+export const IMAGES = [
+  '/projects1.jpg',
+  '/projects2.jpg',
+  '/projects3.jpg',
+];

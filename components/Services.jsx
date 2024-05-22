@@ -1,6 +1,7 @@
 import "./ServicesStyles.css"
 import { aldrich } from "@/app/fonts";
 import Image from "next/image";
+import Button from "./Button";
 
 const Services = () => {
   return (
@@ -66,7 +67,7 @@ const Services = () => {
             placeat quas ducimus laboriosam, vel, quam et error, iusto nemo
             corporis consequuntur?
           </p>
-          <button className="button services_button">Learn more</button>
+          <Button title="Learn more" styles="services_button" />
         </div>
       </section>
     </div>

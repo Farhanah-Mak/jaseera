@@ -11,14 +11,16 @@ const About = () => {
           </h1>
           <div className="about_left">
             <p className="about_text one">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem maxime quia numquam vitae! Tenetur in temporibus
-              provident quasi vel voluptates?
+              Our team collaborates closely with clients to understand their
+              vision and requirements, working together to create accurate and
+              detailed 3D models.
             </p>
             <p className="about_text two">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut,
-              cumque magni officia dignissimos perspiciatis itaque voluptatem
-              quibusdam numquam ad in!
+              We prioritize precision and accuracy in our surveying and
+              engineering services. Our experienced professionals employ
+              state-of-the-art equipment and methodologies to deliver reliable
+              data and robust engineering solutions, adhering to the highest
+              quality standards.
             </p>
           </div>
           <div className="about_right">

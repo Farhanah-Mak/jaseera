@@ -7,12 +7,12 @@ import Software from "@/components/Software";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <About />
       <Projects />
       <Services />
       <Software />
-    </div>
+    </>
   );
 }

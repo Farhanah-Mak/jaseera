@@ -35,10 +35,10 @@ main{
   font-size: 18px; 
   line-height: 28px; 
   font-weight: 400; 
+  font-weight: bold;
   color: var(--primary-color-green); 
-  background: var(--white);
-  opacity: 1; 
-  border: none; 
+  background: var(--white); 
   border-radius: 4px;
-  transition: all .3s linear;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }

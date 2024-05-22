@@ -1,5 +1,6 @@
 .software{
     background-color: #A9CBF42E;
+    /* background-color: red; */
 }
 .software_container{
     max-width: var(--max-width);
@@ -11,6 +12,7 @@
 .software_title{
      font-size: clamp(1.9rem, 2.5vw, 2.5rem);
      margin-bottom: 2rem;
+     color: var(--primary-color-blue);
 }
 .software_logo_wrapper{
     display: flex;

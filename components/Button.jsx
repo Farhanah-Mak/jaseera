@@ -1,31 +1,12 @@
-import Image from "next/image"
-import './ButtonStyles.css'
+"useClient";
 
-// const Button = ({type, title, icon}) => {
-//   return (
-//       <button type={type} className='button'>
-//       {icon &&
-//         <Image src={icon} width={24} height={24} alt={title} />}
-//       <label className="label">
-//         {title}
-//       </label> 
-//       </button>
-//   )
-// }
-
-// export default Button
-
-const Button = (type, label, icon) => {
+const Button = ({ title, styles, handleClick }) => {
   return (
-    <>
-      <button type={type} className="button">
-        {icon && <Image src={icon} width={24} height={24} alt={icon} />}
-        <label className="label">
-          {label}
-        </label>
-      </button>
-    </>
+    <button type={"button"}
+      className={`${styles} + button`}
+      onClick={handleClick}
+            >
+            {title}</button>
   )
 }
-
 export default Button

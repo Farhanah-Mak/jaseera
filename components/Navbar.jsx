@@ -19,7 +19,7 @@ const Navbar = () => {
     if (width <= 576) return 90;
     if (width <= 768) return 100;
     if (width <= 992) return 130;
-    if (width <= 1200) return 150;
+    if (width <= 1200) return 140;
     return 150;
   };
 

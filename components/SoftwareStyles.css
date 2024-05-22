@@ -1,6 +1,6 @@
 .software{
+    width: 100%;
     background-color: #A9CBF42E;
-    /* background-color: red; */
 }
 .software_container{
     max-width: var(--max-width);
@@ -8,6 +8,8 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    position: relative;
 }
 .software_title{
      font-size: clamp(1.9rem, 2.5vw, 2.5rem);
@@ -18,11 +20,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    flex-wrap: nowrap;   
+    gap: 2rem; 
 }
+
 @media(min-width: 700px) {
     .software_title{
         text-align: center;
+    }
+}
+@keyframes marquee{
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
     }
 }

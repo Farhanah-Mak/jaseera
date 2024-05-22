@@ -25,7 +25,9 @@ const Footer = () => {
           {/* <button className="footer_button" type="button">
             Get in touch
           </button> */}
-          <Button title="Get in touch" styles="footer_button" />
+          <Link href="/contact">
+            <Button title="Get in touch" styles="footer_button" />
+          </Link>
         </div>
         <ul className="footerlists">
           {NAV_LINKS.map((link) => (

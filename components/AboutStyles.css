@@ -1,7 +1,5 @@
 .about{
-    overflow: hidden;
-    /* --circleDiameter: 300px;
-    --circles: calc(var(--circleDiameter) / 5) */
+    
 }
 .about_container{
     padding: 1.7rem 2rem;

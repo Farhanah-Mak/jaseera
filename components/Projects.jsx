@@ -12,7 +12,12 @@ const Projects = () => {
             Our projects
           </h1>
           <p className="projects_text">
-            Create clash detection analyses and 
+            Welcome to our projects section, a dynamic showcase of our
+            innovative endeavors, where groundbreaking ideas and remarkable
+            achievements come to life in a symphony of creativity and
+            technological prowess. Step into a world where possibilities unfold,
+            and witness the extraordinary tapestry of our passion, expertise,
+            and relentless pursuit of excellence.
           </p>
         </div>
         <div className="projects_bottom">
@@ -28,7 +33,8 @@ const Projects = () => {
                 Project 1
               </h3>
               <p className="projects_tile_text">
-                As Built scanning and 3D modelling for Petrochemical, Oil and gas plants
+                As Built scanning and 3D modelling for Petrochemical, Oil and
+                gas plants
               </p>
               <Button title="Learn more" styles="projects_button" />
             </div>

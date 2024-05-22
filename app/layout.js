@@ -7,8 +7,8 @@ import { inter } from "./fonts";
 
 
 export const metadata = {
-  title: "3D Design",
-  description: "3D products manufacturing",
+  title: "Jaseera",
+  description: "3D Design and Manufacturing",
 };
 
 export default function RootLayout({ children }) {

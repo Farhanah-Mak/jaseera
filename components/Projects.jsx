@@ -15,9 +15,7 @@ const Projects = () => {
             Welcome to our projects section, a dynamic showcase of our
             innovative endeavors, where groundbreaking ideas and remarkable
             achievements come to life in a symphony of creativity and
-            technological prowess. Step into a world where possibilities unfold,
-            and witness the extraordinary tapestry of our passion, expertise,
-            and relentless pursuit of excellence.
+            technological prowess.
           </p>
         </div>
         <div className="projects_bottom">

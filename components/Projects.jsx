@@ -1,9 +1,8 @@
 import "./ProjectsStyles.css"
 import { aldrich } from "@/app/fonts";
-import Image from "next/image";
-import Button from "./Button";
+import ProjectListings from "./ProjectListing";
 
-const Projects = () => {
+const Projects = ({title, src, text}) => {
   return (
     <div className="projects">
       <section className="projects_container">
@@ -19,54 +18,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="projects_bottom">
-          <div className="projects_tiles">
-            <div className="projects_tile">
-              <Image
-                src="/projects1.jpg"
-                width={200}
-                height={200}
-                className="projects_pic"
-              />
-              <h3 className={`${aldrich.className} + projects_tile_title`}>
-                Project 1
-              </h3>
-              <p className="projects_tile_text">
-                As Built scanning and 3D modelling for Petrochemical, Oil and
-                gas plants
-              </p>
-              <Button title="Learn more" styles="projects_button" />
-            </div>
-            <div className="projects_tile">
-              <Image
-                src="/projects2.jpg"
-                width={200}
-                height={200}
-                className="projects_pic"
-              />
-              <h3 className={`${aldrich.className} + projects_tile_title`}>
-                Project 2
-              </h3>
-              <p className="projects_tile_text">
-                Scanning and modelling for offshaore plants and ships
-              </p>
-              <Button title="Learn more" styles="projects_button" />
-            </div>
-            <div className="projects_tile">
-              <Image
-                src="/projects3.jpg"
-                width={200}
-                height={200}
-                className="projects_pic"
-              />
-              <h3 className={`${aldrich.className} + projects_tile_title`}>
-                Project 3
-              </h3>
-              <p className="projects_tile_text">
-                Reverse engineering for mechanical parts
-              </p>
-              <Button title="Learn more" styles="projects_button" />
-            </div>
-          </div>
+          <ProjectListings />
         </div>
       </section>
     </div>

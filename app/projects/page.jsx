@@ -1,9 +1,9 @@
 import Projects from "@/components/Projects"
 
-const page = () => {
+const page = ({params}) => {
   return (
     <>
-         <Projects /> 
+      <Projects /> 
     </>
   )
 }

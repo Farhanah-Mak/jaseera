@@ -6,19 +6,24 @@
     position: relative;
 }
 .slider{
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
+     display: flex;
+    margin: 0 auto; 
+     width: 100%; 
     animation: slide 15s infinite;
 }
 .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     flex: 1 0 100%;
     position: relative;
+    border: 5px solid red;
 }
 .slide img{
     width: 100%;
-    height: auto;
+    min-height: 50%;
+    /* height: auto; */
     display: block;
     object-fit: cover;
 }

@@ -1,5 +1,6 @@
 import './ContactStyles.css'
 import { aldrich } from "@/app/fonts";
+import Image from 'next/image';
 
 const Contact = () => {
     return (
@@ -9,10 +10,20 @@ const Contact = () => {
             <h1 className={`${aldrich.className} + contact_title`}>
               Contact us
             </h1>
-            <div>
-              <p>Dammam, Saudi Arabia</p>
-              <p>+966 591698112</p>
-              <p>jaseeraengineering@gmail.com</p>
+            <div className='contact_icons_container'>
+              <p className='contact_icons'>
+                <Image src="/location.svg" width={12} height={12} />
+                Dammam, Saudi Arabia
+              </p>
+              <p className='contact_icons'>
+                <Image src="/phone.svg" width={12} height={12} />
+                +966 591698112
+              </p>
+              <p className='contact_icons'>
+                {""}
+                <Image src="/mail.svg" width={12} height={12} />
+                jaseeraengg@gmail.com
+              </p>
             </div>
           </div>
           <div className="contact_right">

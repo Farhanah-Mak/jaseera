@@ -1,10 +1,18 @@
+'use client'
 import "./HeroStyles.css"
 import Image from "next/image"
 import Link from "next/link";
 import { aldrich, alfa_slab_one } from "@/app/fonts";
 import Button from "./Button";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 const Hero = () => {
+  useGSAP(() => {
+     gsap.to(".hero_title", { opacity: 1, delay: .5 });
+     gsap.to(".hero_video", { opacity: 1, y: -20 , delay: .5 });
+  }, []);
+ 
   return (
     <div className="hero">
       <section className="hero_container">
@@ -26,7 +34,17 @@ const Hero = () => {
           </Link>
         </div>
         <div className="hero_right">
-          <Image src="" width={400} height={400} className="hero_image" />
+          <video
+            className="hero_video"
+            autoPlay={true}
+            muted
+            playsInline={true}
+            loop
+            width={window.innerWidth < 760 ? 400 : 500}
+            height={window.innerWidth < 760 ? 400 : 500}
+          >
+            <source src="/video.mp4" type="video/mp4" />
+          </video>
         </div>
       </section>
     </div>

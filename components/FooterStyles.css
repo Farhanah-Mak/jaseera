@@ -45,6 +45,9 @@
     font-size: 14px;
     line-height: 25px;
 }
+.address > p > img{
+    margin-right: 10px;
+}
 .line{
     border: 1px solid #6980A4FF;
     margin-bottom: 1rem;

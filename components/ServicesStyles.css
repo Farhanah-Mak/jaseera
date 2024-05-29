@@ -1,6 +1,6 @@
 .services{
     background: #0D8D74FF;
-    color: white;
+    color: var(--white);
 }
 .services_container{
     padding: 1.7rem 2rem;
@@ -42,7 +42,7 @@
     padding: 1em;
 }
 .services_right_text{
-   
+    line-height: clamp(2rem, 2.5vw, 2.3rem);
 }
 .services_button{
     margin-top: 2em;

@@ -40,9 +40,21 @@ const Footer = () => {
         <div className="line"></div>
 
         <div className="address">
-          <p>Dammam, Saudi Arabia</p>
-          <p>+966 591698112</p>
-          <p>jaseeraengineering@gmail.com</p>
+          <p>
+            {" "}
+            <Image src="/location.svg" width={12} height={12} />
+            Dammam, Saudi Arabia
+          </p>
+          <p>
+            {" "}
+            <Image src="/phone.svg" width={12} height={12} />
+            +966 591698112
+          </p>
+          <p>
+            {" "}
+            <Image src="/mail.svg" width={12} height={12} />
+            jaseeraengg@gmail.com
+          </p>
         </div>
 
         <div className="line"></div>

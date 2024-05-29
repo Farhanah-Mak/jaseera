@@ -40,8 +40,10 @@ const Hero = () => {
             muted
             playsInline={true}
             loop
-            width={window.innerWidth < 760 ? 400 : 500}
-            height={window.innerWidth < 760 ? 400 : 500}
+            // width={window.innerWidth < 760 ? 400 : 500}
+            // height={window.innerWidth < 760 ? 400 : 500}
+            width={500}
+            height={500}
           >
             <source src="/video.mp4" type="video/mp4" />
           </video>

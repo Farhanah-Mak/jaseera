@@ -6,11 +6,35 @@ import { aldrich, alfa_slab_one } from "@/app/fonts";
 import Button from "./Button";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
 
 const Hero = () => {
+  const container = useRef();
   useGSAP(() => {
-     gsap.to(".hero_title", { opacity: 1, delay: .5 });
-     gsap.to(".hero_video", { opacity: 1, y: -20 , delay: .5 });
+     gsap.to(".hero_title", {
+       opacity: 1,
+       delay: 0.3,
+       y: -20,
+       ease: "power1.out",
+     });
+     gsap.to(".hero_subtitle", {
+       opacity: 1,
+       delay: 0.5,
+       y: -20,
+       ease: "power1.out",
+     });
+     gsap.to(".hero_video", {
+       opacity: 1,
+       y: -20,
+       delay: 0.5,
+       ease: "power1.out",
+     });
+     gsap.to(".hero_text", {
+       opacity: 1,
+       delay: 0.7,
+       y: -20,
+       ease: "power1.out",
+     });
   }, []);
  
   return (

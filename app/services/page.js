@@ -1,9 +1,11 @@
+import Carousel from "@/components/Carousel"
 import Services from "@/components/Services"
 
 const page = () => {
   return (
-      <div>
-          <Services />
+    <div>
+      <Carousel />
+       <Services />
     </div>
   )
 }

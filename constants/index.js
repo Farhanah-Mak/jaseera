@@ -19,9 +19,9 @@ export const SOCIALS = {
 
 //PROJECT IMAGES
 export const IMAGES = [
-  '/projects1.jpg',
-  '/projects2.jpg',
-  '/projects3.jpg',
+  { image: '/projects1.jpg', text: "Industrial Surevying and engineering"},
+  { image: '/projects2.jpg', text: "3d modelling services and solution"},
+  { image: '/projects3.jpg', text: "building measurement services"}
 ];
 
 //PROJECTS

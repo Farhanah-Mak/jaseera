@@ -15,7 +15,7 @@
       font-size: clamp(1.9rem, 2.5vw, 2.5rem);
       margin-bottom: 3rem;
       color: var(--primary-color-blue);
-      
+      text-shadow:  .3px .3px .5px var(--primary-color-green);
 }
 .about_text{
     font-size: clamp(.8rem, 10vw, 1.1rem);
@@ -66,6 +66,9 @@
 }
 
 @media (min-width: 830px){
+    .about{
+        padding: 5rem 0;
+    }
     .about_container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -81,81 +84,6 @@
     }
     .about_right{
          flex-wrap: nowrap;
-        /* padding-top: 1rem;
-        position: relative; */
-        /* border: 2px solid black; */
-        /* width: var(--circleDiameter);
-        height: var(--circleDiameter);
-        border-radius: 100%;
-        animation: rotate 30s linear infinite; */
     }
 }
-     /* .about_circle{
-        width: 100px;
-        height: 100px;
-        position: relative;
-        width: var(--circles);
-        height: var(--circles);
-        border: none;
-        box-shadow: none;
-        animation: maintain 30s linear infinite;
-        display: grid;
-        place-content: center;
-    } */
-    /* div.about_circle:nth-child(1){
-    top: calc(-5 * var(--circles) / 2);
-    left: calc(var(--circleDiameter)/ 3 - var(--circles) / 2);
-    animation: scale 1s linear infinite alternate;
-}
-div.about_circle:nth-child(2){
-    top: calc(var(--circleDiameter)/ 4 - var(--circles) / 2);
-    left: calc(6 * var(--circles) / 2);
-    animation: scale 1s linear infinite alternate;
-}
-div.about_circle:nth-child(3){
-    top: calc(var(--circleDiameter)/ 2.3 - var(--circles) / 2);
-    left: calc(-1 * var(--circles) / 2);
-    animation: scale 1s linear infinite alternate;
     
-}
-div.about_circle:nth-child(4){
-    right: calc(var(--circleDiameter)/ 1.2 - var(--circles) / 2 );
-    bottom: calc(1 * var(--circles) / 2);
-    animation: scale 1s linear infinite alternate;
-    
-}
-div.about_circle:nth-child(5){
-     left: calc(var(--circleDiameter)/ 25 - var(--circles) / 2 );
-    top: calc(-4 * var(--circles) / 2);
-    animation: scale 1s linear infinite alternate;
-    
-} */
-
-/* @keyframes rotate {
-  0% {
-        transform: rotate(0)
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}   
-@keyframes scale {
-    0% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}  */
-
-/* @keyframes maintain {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(-360deg);
-    }
-} */
-

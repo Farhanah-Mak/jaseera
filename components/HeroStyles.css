@@ -2,10 +2,10 @@
 }
 
 .hero_container{
-    background: url("/wave.svg");
+    /* background: url("/wave.svg");
     background-repeat: repeat;   
     background-size: cover;
-    background-position: right;
+    background-position: right; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -13,6 +13,7 @@
     align-items: center;
     padding: 1.5rem 2.3rem;
     margin: 0 auto;
+    position: relative;
 }
 .hero_left{
    

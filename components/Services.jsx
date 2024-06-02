@@ -2,6 +2,7 @@ import "./ServicesStyles.css"
 import { aldrich } from "@/app/fonts";
 import Image from "next/image";
 import Button from "./Button";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -67,7 +68,9 @@ const Services = () => {
             placeat quas ducimus laboriosam, vel, quam et error, iusto nemo
             corporis consequuntur?
           </p>
-          <Button title="Learn more" styles="services_button" />
+          <Link href="/services">
+            <Button title="Learn more" styles="services_button" />
+          </Link>
         </div>
       </section>
     </div>

@@ -48,7 +48,7 @@
      box-shadow:  3px 3px 5px black;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 }
-@media (min-width: 700px){
+@media (min-width: 830px){
     .projects{
         padding: 5rem 0;
     }

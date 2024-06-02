@@ -7,6 +7,7 @@ import Button from "./Button";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import Blob from "./Blob";
 
 const Hero = () => {
   const container = useRef();
@@ -41,6 +42,7 @@ const Hero = () => {
     <div className="hero">
       <section className="hero_container">
         <div className="hero_left">
+          <Blob />
           <h1 className={`${alfa_slab_one.className} + hero_title`}>
             Jaseera Engineering
           </h1>
@@ -57,7 +59,7 @@ const Hero = () => {
             <Button title="Read more" styles="hero_button" />
           </Link>
         </div>
-        <div className="hero_right">
+        {/* <div className="hero_right">
           <video
             className="hero_video"
             autoPlay={true}
@@ -71,7 +73,7 @@ const Hero = () => {
           >
             <source src="/video.mp4" type="video/mp4" />
           </video>
-        </div>
+        </div> */}
       </section>
     </div>
   );

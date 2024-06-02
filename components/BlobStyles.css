@@ -1,0 +1,43 @@
+
+.blobContainer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;  
+}
+
+.blob {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#blob1 {
+  top: -30px; 
+  left: -30px; 
+  width: 300px; 
+  height: 300px; 
+  background-image: url('/blob1.svg');
+}
+
+#blob2 {
+  width: 600px; 
+  height: 400px; 
+  bottom: 50px; 
+  right: -150px; 
+  background-image: url('/blob2.svg');
+  z-index: -1;
+}
+
+
+@media (min-width: 700px){
+    #blob2{
+        top: -100px; 
+        right: -100px;
+        width: 650px;
+        height: 450px;
+    }
+}

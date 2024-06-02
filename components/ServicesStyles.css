@@ -1,6 +1,6 @@
 .services{
     background: #0D8D74FF;
-    color: var(--white);
+    color: var(--white)
 }
 .services_container{
     padding: 1.7rem 2rem;
@@ -52,7 +52,7 @@
     border: 1px solid var(--primary-color-blue);
     background-color: var(--primary-color-blue);
 }
-@media (min-width: 700px){
+@media (min-width: 830px){
     .services{
         padding: 5rem 0;
     }

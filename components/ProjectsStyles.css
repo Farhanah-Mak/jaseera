@@ -28,6 +28,7 @@
     gap: 1.5rem;
 }
 .projects_tile{
+     display: grid;
      padding: 1rem;
      background-color: white;
      border: none;
@@ -35,7 +36,10 @@
 }
 .projects_tile_title{
     margin: 1em 0;
-   
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-color-blue);
+    font-weight: bolder;
 }
 .projects_tile_text{
     margin-bottom: 1.3em;

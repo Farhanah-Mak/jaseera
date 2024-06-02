@@ -11,8 +11,11 @@ const Navbar = () => {
   const { width } = useWindowSize();
   const [isOpen, setIsOpen] = useState(false)
 
-  function handleClick() {
+  function toggleSideBar() {
     setIsOpen(!isOpen)
+  }
+  function closeSideBar() {
+    setIsOpen(false)
   }
 
   function getLogoSize(){
@@ -28,17 +31,22 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navContainer">
         <Link href="/">
-            <Image
-              src="/jaseera_logo.png"
-              width={getLogoSize()}
-              height={getLogoSize() / 2}
-              alt="logo"
-              className="nav_logo"
-            />
+          <Image
+            src="/jaseera_logo.png"
+            width={getLogoSize()}
+            height={getLogoSize() / 2}
+            alt="logo"
+            className="nav_logo"
+          />
         </Link>
         <ul className={`navlists ${isOpen ? "open" : ""}`}>
           {NAV_LINKS.map((link) => (
-            <Link className="navlist" href={link.href} key={link.key}>
+            <Link
+              className="navlist"
+              href={link.href}
+              key={link.key}
+              onClick={closeSideBar}
+            >
               {link.label}
             </Link>
           ))}
@@ -54,7 +62,7 @@ const Navbar = () => {
             alt="menu"
             width={30}
             height={30}
-            onClick={handleClick}
+            onClick={toggleSideBar}
             className="nav_toggle_button"
           />
         </div>

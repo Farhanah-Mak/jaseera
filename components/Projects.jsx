@@ -10,12 +10,12 @@ const Projects = ({title, src, text}) => {
           <h1 className={`${aldrich.className} + projects_title`}>
             Our projects
           </h1>
-          <p className="projects_text">
-            Welcome to our projects section, a dynamic showcase of our
-            innovative endeavors, where groundbreaking ideas and remarkable
-            achievements come to life in a symphony of creativity and
-            technological prowess.
-          </p>
+            <p className="projects_text">
+              Welcome to our projects section, a dynamic showcase of our
+              innovative endeavors, where groundbreaking ideas and remarkable
+              achievements come to life in a symphony of creativity and
+              technological prowess.
+            </p>
         </div>
         <div className="projects_bottom">
           <ProjectListings />

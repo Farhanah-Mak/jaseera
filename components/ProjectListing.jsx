@@ -19,8 +19,8 @@ const ProjectListings = () => {
           <h3 className={`${aldrich.className} + projects_tile_title`}>
             {project.label}
           </h3>
-          <p className="projects_tile_text">{project.text}</p>
-          <Link href={`/projects/${project.key}`}>
+            <p className="projects_tile_text">{project.text}</p>
+            <Link href={`/projects/${project.key}`}>
             {" "}
             <Button title="Learn more" styles="projects_button" />
           </Link>

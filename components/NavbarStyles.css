@@ -27,6 +27,7 @@
     background-color: var(--white);
     z-index: -1;
    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+   
 }
 .navlists.open .navlist{
     padding: 1.2rem;
@@ -37,7 +38,6 @@
     color: var(--primary-color-green);
     transition: all .3s ease;
 }
-
 .nav_logo{
     width: 100%;
     height: auto;
@@ -53,11 +53,11 @@
 .contact_link{
     text-decoration: none;
 }
- .nav_toggle_button{
+ /* .nav_toggle_button{
     display: block;
-     background: transparent;
+    background: transparent;
     border: none;
- }
+ } */
 
 @media (min-width: 879px) {
     .navContainer{

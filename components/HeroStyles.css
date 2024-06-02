@@ -2,10 +2,6 @@
 }
 
 .hero_container{
-    /* background: url("/wave.svg");
-    background-repeat: repeat;   
-    background-size: cover;
-    background-position: right; */
     display: flex;
     flex-direction: column;
     gap: 2rem;

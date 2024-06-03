@@ -1,6 +1,5 @@
 'use client'
 import "./HeroStyles.css"
-import Image from "next/image"
 import Link from "next/link";
 import { aldrich, alfa_slab_one } from "@/app/fonts";
 import Button from "./Button";

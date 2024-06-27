@@ -34,15 +34,16 @@
 .projects_tile{
      display: grid;
      padding: 1rem;
-     background-color: rgb(1, 1, 18);
-     border: none;
-     box-shadow: rgba(125, 226, 206, 0.2) 0px 8px 24px;
+    background-color: transparent; 
+    border-radius: 5px;
+    border: none;
+     box-shadow: rgba(55, 66, 63, 0.56) 5px 3px 8px;
 }
 .projects_tile_title{
     margin: 1em 0;
     text-align: center;
     text-transform: uppercase;
-    color: var(--primary-color-blue);
+    color: var(--white);
     font-weight: bolder;
 }
 .projects_tile_text{

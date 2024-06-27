@@ -25,8 +25,11 @@
 }
 .services_title{
     text-transform: uppercase;
-    z-index: 3;
-    font-size: clamp(1.9rem, 2.5vw, 2.5rem);
+      font-size: clamp(1.9rem, 2.5vw, 2.5rem);
+      margin-bottom: 3rem;
+      background: var(--linear-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .service{
     flex: 1;

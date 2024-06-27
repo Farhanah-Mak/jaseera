@@ -13,10 +13,12 @@
 
 }
 .software_title{
-     font-size: clamp(1.9rem, 2.5vw, 2.5rem);
-     color: var(--primary-color-blue);
-     margin-bottom: 2.5rem;
-     text-shadow:  .3px .3px .5px var(--primary-color-green);
+      text-transform: uppercase;
+      font-size: clamp(1.9rem, 2.5vw, 2.5rem);
+      margin-bottom: 3rem;
+      background: var(--linear-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .software_logo_wrapper{
     display: flex;

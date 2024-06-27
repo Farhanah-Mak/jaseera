@@ -58,7 +58,7 @@ const Hero = () => {
             precision, efficiency, and innovation, we help you navigate the path
             to excellence, shaping the future of your industry.
           </p>
-          <Link href="/">
+          <Link href="/about">
             <Button title="Read More" type="button" styles="hero_button" data="Read More"/>
           </Link>
         </div>

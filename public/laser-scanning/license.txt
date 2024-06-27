@@ -1,0 +1,11 @@
+Model Information:
+* title:	CO2 Laser Engraver/Cutting Machine
+* source:	https://sketchfab.com/3d-models/co2-laser-engravercutting-machine-52c1c631d0414162a476e1c8b2cb82f1
+* author:	mrTorch (https://sketchfab.com/mrTorch)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CO2 Laser Engraver/Cutting Machine" (https://sketchfab.com/3d-models/co2-laser-engravercutting-machine-52c1c631d0414162a476e1c8b2cb82f1) by mrTorch (https://sketchfab.com/mrTorch) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

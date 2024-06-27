@@ -52,3 +52,12 @@ export const PROJECTS = [
   },
 ];
                
+
+// export const SERVICES = [
+//   {
+//     key: "1",
+//     label: "3D Laser Scanning",
+//     images: "",
+//     details: ""
+//   }
+// ]

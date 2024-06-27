@@ -1,0 +1,17 @@
+.wrapper{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid red;
+    padding: 1.5rem;
+}
+.laser_scanning_video{
+    /* width: 100%;
+    height: auto; */
+    width: 600px;
+    height: 500px;
+}
+iframe {
+  background: none !important;
+}

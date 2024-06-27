@@ -1,6 +1,6 @@
 .software{
     width: 100%;
-    background-color: #a9cbf42e;
+    background-color: var(--white);
 }
 .software_container{
     padding: 1.7rem 2rem;

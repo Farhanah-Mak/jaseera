@@ -7,6 +7,7 @@ import Link from "next/link";
 const Services = () => {
   return (
     <div className="services">
+      {/* <div className="overlay"></div> */}
       <section className="services_container">
         <h2 className={`${aldrich.className} + services_title`}>
           Our Services
@@ -16,42 +17,54 @@ const Services = () => {
             <p className={`${aldrich.className} + service`}>
               3D Laser Scanning
             </p>
-            <Image
-              src="/services-icon.svg"
-              width={30}
-              height={30}
-              className=".service_icon"
-            />
+            <Link href="services/3D-laser-scanning">
+              <Image
+                src="/services-icon.svg"
+                width={30}
+                height={30}
+                className="service_icon"
+              />
+            </Link>
           </div>
           <div className="service_wrapper">
             <p className={`${aldrich.className} + service`}>Digital Twin </p>
-            <Image
-              src="/services-icon.svg"
-              width={30}
-              height={30}
-              className=".service_icon"
-            />
+            <Link href="services/digital-twin">
+              <Image
+                src="/services-icon.svg"
+                width={30}
+                height={30}
+                className="service_icon"
+              />
+            </Link>
+
             {/* </span> */}
           </div>
           <div className="service_wrapper">
             <p className={`${aldrich.className} + service`}>3D Modelling</p>
-            <Image
-              src="/services-icon.svg"
-              width={30}
-              height={30}
-              className=".service_icon"
-            />
+            <Link href="services/3D-Modelling">
+              <Image
+                src="/services-icon.svg"
+                width={30}
+                height={30}
+                className="service_icon"
+              />
+            </Link>
           </div>
           <div className="service_wrapper">
             <p className={`${aldrich.className} + service`}>
               Topographical Survey
             </p>
-            <Image
-              src="/services-icon.svg"
-              width={30}
-              height={30}
-              className=".service_icon"
-            />
+            <Link
+              href="services/topographical-survey"
+              className="services_link"
+            >
+              <Image
+                src="/services-icon.svg"
+                width={30}
+                height={30}
+                className="service_icon"
+              />
+            </Link>
           </div>
         </div>
         <div className="services_right">
@@ -69,7 +82,7 @@ const Services = () => {
             corporis consequuntur?
           </p>
           <Link href="/services">
-            <Button title="Learn more" styles="services_button" />
+            <Button title="Learn More" styles="services_button" data="Learn More"/>
           </Link>
         </div>
       </section>

@@ -1,21 +1,28 @@
 .about{
     display: grid;
+    background-color: black;
+    color: var(--white);
 }
 .about_container{
     padding: 1.7rem 2rem;
     display: grid;
     max-width: var(--max-width);
     margin: 0 auto;
+    position: relative;
 }
 .about_left{
     padding-left: 1rem;
 }
 
 .about_title{
+    text-transform: uppercase;
       font-size: clamp(1.9rem, 2.5vw, 2.5rem);
       margin-bottom: 3rem;
-      color: var(--primary-color-blue);
-      text-shadow:  .3px .3px .5px var(--primary-color-green);
+      /* color: var(--primary-color-blue); */
+      background: var(--linear-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+     /* text-shadow:  .3px .3px .5px var(--primary-color-green); */
 }
 .about_text{
     font-size: clamp(.8rem, 10vw, 1.1rem);
@@ -50,7 +57,7 @@
      height: 100px; 
     border-radius: 50%;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-     background-color: #90BAB21C;
+     background-color: #444f4f80;
 }
  .about_circle > div {
     position: unset !important;

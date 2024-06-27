@@ -42,7 +42,8 @@ const Navbar = () => {
         <ul className={`navlists ${isOpen ? "open" : ""}`}>
           {NAV_LINKS.map((link) => (
             <Link
-              className="navlist"
+              className="navlist on-hover"
+              data-text={link.label}
               href={link.href}
               key={link.key}
               onClick={closeSideBar}
@@ -54,7 +55,7 @@ const Navbar = () => {
         <div>
           <Link href="/contact" className="contact_link">
             {" "}
-            <Button title="Contact us" styles="navbutton" />
+            <Button title="Contact Us" data="Contact Us" styles="navbutton"/>
           </Link>
           <Image
             as="button"

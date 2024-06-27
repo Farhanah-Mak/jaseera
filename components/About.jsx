@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import {ScrollTrigger} from "gsap/ScrollTrigger"
+import StarCanvas from "./StarCanvas";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -70,6 +71,7 @@ const About = () => {
     return (
       <div className="about">
         <section className="about_container" ref={sectionRef}>
+          <StarCanvas />
           <h1 className={`${aldrich.className} + about_title`}>
             Our Core Values
           </h1>

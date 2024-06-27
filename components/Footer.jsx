@@ -26,7 +26,11 @@ const Footer = () => {
             Get in touch
           </button> */}
           <Link href="/contact">
-            <Button title="Get in touch" styles="footer_button" />
+            <Button
+              title="Get in touch"
+              styles="footer_button"
+              data="Get in touch"
+            />
           </Link>
         </div>
         <ul className="footerlists">
@@ -60,27 +64,49 @@ const Footer = () => {
         <div className="line"></div>
 
         <ul className="socials_list">
-          <Link href="/">
-            <Image src="/twitter.svg" alt="logo" width={24} height={24} />
+          <Link href="https://x.com/eecc_KSA/" target="_blank">
+            <Image
+              src="/twitter.svg"
+              alt="logo"
+              width={24}
+              height={24}
+              className="social_image"
+            />
           </Link>
-          <Link href="/">
-            <Image src="/facebook.svg" alt="logo" width={24} height={24} />
+          <Link
+            href="https://www.facebook.com/share/p/1foHWsLrBT5TxBU2/"
+            target="_blank"
+          >
+            <Image
+              src="/facebook.svg"
+              alt="logo"
+              width={24}
+              height={24}
+              className="social_image"
+            />
           </Link>
-          <Link href="/">
-            <Image src="/instagram.svg" alt="logo" width={24} height={24} />
+          <Link href="https://www.instagram.com/eecc_ksa/" target="_blank">
+            <Image
+              src="/instagram.svg"
+              alt="logo"
+              width={24}
+              height={24}
+              className="social_image"
+            />
           </Link>
-          <Link href="/">
-            <Image src="/linkedin.svg" alt="logo" width={24} height={24} />
+          <Link
+            href="https://www.linkedin.com/feed/update/urn:li:share:7210978918412025856/"
+            target="_blank"
+          >
+            <Image
+              src="/linkedin.svg"
+              alt="logo"
+              width={24}
+              height={24}
+              className="social_image"
+            />
           </Link>
         </ul>
-
-        {/* <ul className="social_icons">
-          {SOCIALS.links.map((link) => {
-            <Link href='/' key={link}>
-                <Image src={link} alt="logo" width={24} height={24} />
-              </Link>
-            })}
-        </ul> */}
       </div>
     </footer>
   );

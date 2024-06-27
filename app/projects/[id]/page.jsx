@@ -10,12 +10,6 @@ const page = ({ params }) => {
       </>
   )
 }
-// export async function generateStaticParams() {
-//   return PROJECTS.map((project) => ({
-//     key: project.key
-//   }));
-// }
-
 
 export default page;
 

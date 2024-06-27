@@ -1,5 +1,7 @@
 .projects{
-    background-color: #F3F4F66E;
+    /* background-color: #F3F4F66E; */
+    background-color: black;
+    color: var(--white);
 }
 .projects_container{
     padding: 1.7rem 2rem;
@@ -11,10 +13,12 @@
     display: grid;
 }
 .projects_title{
+    text-transform: uppercase;
     font-size: clamp(1.9rem, 2.5vw, 2.5rem);
     margin-bottom: 3rem;
-    color: var(--primary-color-blue);
-    text-shadow:  .3px .3px .5px var(--primary-color-green);
+     background: var(--linear-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .projects_text{
      font-size: clamp(.8rem, 10vw, 1.1rem);
@@ -30,9 +34,9 @@
 .projects_tile{
      display: grid;
      padding: 1rem;
-     background-color: white;
+     background-color: rgb(1, 1, 18);
      border: none;
-     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     box-shadow: rgba(125, 226, 206, 0.2) 0px 8px 24px;
 }
 .projects_tile_title{
     margin: 1em 0;
@@ -50,7 +54,12 @@
     margin: 0 auto;
     object-fit: cover;
      box-shadow:  3px 3px 5px black;
-    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.projects_button:hover{
+    background: var(--linear-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 @media (min-width: 830px){
     .projects{

@@ -7,6 +7,7 @@
     --primary-color-green: #44956D;
     --primary-color-blue: #264C90;
     --white: #edfdfa;
+    --linear-gradient : linear-gradient(45deg, #00bfa5, #1e88e5, #00ffff, #44956D);
 }
 
 * {
@@ -30,16 +31,21 @@ main{
   overflow: hidden;  
 }
 .button{
+  position: relative;
   padding: 5px 20px; 
   font-family: Inter; 
   font-size: 18px; 
   line-height: 28px; 
   font-weight: 400; 
   font-weight: bold;
-  color: var(--primary-color-green); 
-  background: var(--white); 
-  border-radius: 4px;
+  color: var(--white); 
+  background-color: transparent; 
+  border-radius: 5px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source : linear-gradient(45deg, #00bfa5, #1e88e5, #00ffff, #44956D);
+  background-clip:  padding-box;
   cursor: pointer;
 }
+
